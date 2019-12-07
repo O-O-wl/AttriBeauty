@@ -23,6 +23,7 @@ extension String: BeautifulStringConvertible {
 }
 
 // MARK: - NSAttributedString
+
 extension NSAttributedString: BeautifulStringConvertible {
     
     public  func beautfiy() -> BeautifulString {
