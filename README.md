@@ -18,9 +18,10 @@ pod 'AttriBeauty'
 ## Usage
 
 ```swift
-let text =  "Hello World!\n AttriBeauty is very awesome!"
+@IBOutlet var demoLabel: UILabel!
 
-let attributedString = text.beautfiy()
+demoLabel.attributedText = "Hello World!\n AttriBeauty is very awesome!"
+						.beautfiy()
             .attriBeauty
             .fgColor(.blue)
             .bgColor(.purple).regex("t")
@@ -31,7 +32,7 @@ let attributedString = text.beautfiy()
     
 ```
 
-<img width="270" alt="스크린샷 2019-12-08 오전 2 44 51" src="https://user-images.githubusercontent.com/39197978/70378538-c02fbf00-1964-11ea-975d-4310855a9841.png">
+<img width="270" alt="스크린샷 2019-12-08 오전 3 12 16" src="https://user-images.githubusercontent.com/39197978/70378842-937da680-1968-11ea-8d43-8dda5850d5b7.png">
 
 
 
