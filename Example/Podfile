@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AttriBeauty_Example' do
+  pod 'AttriBeauty', :path => '../'
+
+  target 'AttriBeauty_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
