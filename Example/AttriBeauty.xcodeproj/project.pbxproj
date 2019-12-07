@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CEC64FA8BF7A38192AE68DC /* Pods-AttriBeauty_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttriBeauty_Example.debug.xcconfig"; path = "Target Support Files/Pods-AttriBeauty_Example/Pods-AttriBeauty_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6D71714BBDFE0403F9BB8A36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D71714BBDFE0403F9BB8A36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C278E6C9A5F1F1372EF0A634 /* Pods_AttriBeauty_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttriBeauty_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6C293071DA5794BB0736558 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F9EB1AD8313171574BD9EEFC /* AttriBeauty.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AttriBeauty.podspec; path = ../AttriBeauty.podspec; sourceTree = "<group>"; };
+		F6C293071DA5794BB0736558 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F9EB1AD8313171574BD9EEFC /* AttriBeauty.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AttriBeauty.podspec; path = ../AttriBeauty.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				4E7175869D5274DF488D4A21 /* Pods-AttriBeauty_Tests.debug.xcconfig */,
 				5BF4D8B32B78150EC76F3E09 /* Pods-AttriBeauty_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
