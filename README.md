@@ -1,4 +1,4 @@
-![build](https://img.shields.io/badge/swift-5.0-orange) ![build](https://img.shields.io/badge/build-passing-dgreen) ![platform](https://img.shields.io/badge/platform-iOS-blue) ![license](https://img.shields.io/badge/license-MIT-black)
+![build](https://img.shields.io/badge/swift-5.0-orange)![pod](https://img.shields.io/badge/pods-v0.1.0-yellow) ![build](https://img.shields.io/badge/build-passing-dgreen) ![platform](https://img.shields.io/badge/platform-iOS-blue) ![license](https://img.shields.io/badge/license-MIT-black)
 
 
 
