@@ -24,7 +24,7 @@ demoLabel.attributedText = "Hello World!\n AttriBeauty is very awesome!"
 						.beautfiy()
             .attriBeauty
             .fgColor(.blue)
-            .bgColor(.purple).regex("t")
+            .bgColor(.purple).regex("y")
             .fgColor(.red).range(NSRange(0...4))
             .font(.boldSystemFont(ofSize: 30))
             .align(.center)
