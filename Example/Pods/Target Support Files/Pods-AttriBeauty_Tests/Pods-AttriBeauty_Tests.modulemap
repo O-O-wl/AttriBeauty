@@ -1,0 +1,6 @@
+framework module Pods_AttriBeauty_Tests {
+  umbrella header "Pods-AttriBeauty_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

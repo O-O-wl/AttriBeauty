@@ -1,0 +1,27 @@
+PODS:
+  - AttriBeauty (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AttriBeauty (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AttriBeauty:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AttriBeauty: c3c1fd0cb03b33cc23db2e6853f6afc68604d17b
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b880388e5010ed2a4ae2d5c71000f94b8b65c245
+
+COCOAPODS: 1.8.4
