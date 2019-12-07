@@ -21,7 +21,7 @@ pod 'AttriBeauty'
 @IBOutlet var demoLabel: UILabel!
 
 demoLabel.attributedText = demoLabel.text?
-			      .beautfiy()
+            .beautfiy()
             .attriBeauty
             .fgColor(.blue)
             .bgColor(.green).regex("awesome")
