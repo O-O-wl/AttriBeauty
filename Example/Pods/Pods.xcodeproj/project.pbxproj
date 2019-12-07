@@ -10,7 +10,8 @@
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08C3F9297FB2B7A623FF59373F3B80AA /* Pods-AttriBeauty_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 010705CC0B6F64F776C99B06F290184C /* Pods-AttriBeauty_Tests-dummy.m */; };
 		09CDEB365DB2DC5D9D67EAF3818FD006 /* Pods-AttriBeauty_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB835B1AF6178598223D0BA354CF19 /* Pods-AttriBeauty_Example-dummy.m */; };
-		0EB548C7239C148400C88B1D /* BeautifulStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB548C6239C148400C88B1D /* BeautifulStringConvertible.swift */; };
+		0EB548C7239C148400C88B1D /* BeautifulStringConvertible+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB548C6239C148400C88B1D /* BeautifulStringConvertible+.swift */; };
+		0EB548CB239C15C000C88B1D /* BeautifulString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB548CA239C15C000C88B1D /* BeautifulString.swift */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
@@ -27,7 +28,7 @@
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9644B54350AACB38D9FA95DF649D5FDE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678EF3D55C0F3BE810C07592CD241101 /* ReplaceMe.swift */; };
+		9644B54350AACB38D9FA95DF649D5FDE /* AttriBeautyDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678EF3D55C0F3BE810C07592CD241101 /* AttriBeautyDSL.swift */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
@@ -69,7 +70,8 @@
 		010705CC0B6F64F776C99B06F290184C /* Pods-AttriBeauty_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AttriBeauty_Tests-dummy.m"; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0E8947EADC2105B4C9FC2D3886C1ADF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0EB548C6239C148400C88B1D /* BeautifulStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulStringConvertible.swift; sourceTree = "<group>"; };
+		0EB548C6239C148400C88B1D /* BeautifulStringConvertible+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeautifulStringConvertible+.swift"; sourceTree = "<group>"; };
+		0EB548CA239C15C000C88B1D /* BeautifulString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulString.swift; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		17D529C0DAEDAE749FB8EE964A4194CD /* Pods-AttriBeauty_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AttriBeauty_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 		5B9603F6A4601C462E9B7C2EE4EEA317 /* Pods-AttriBeauty_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttriBeauty_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		678EF3D55C0F3BE810C07592CD241101 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AttriBeauty/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		678EF3D55C0F3BE810C07592CD241101 /* AttriBeautyDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttriBeautyDSL.swift; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		7613AD6AA56E06906E459726C1A48257 /* Pods-AttriBeauty_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AttriBeauty_Example.modulemap"; sourceTree = "<group>"; };
@@ -183,7 +185,7 @@
 		0EB548C5239C124800C88B1D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0EB548C6239C148400C88B1D /* BeautifulStringConvertible.swift */,
+				0EB548C6239C148400C88B1D /* BeautifulStringConvertible+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -191,7 +193,9 @@
 		0EB548C8239C14CB00C88B1D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				678EF3D55C0F3BE810C07592CD241101 /* AttriBeautyDSL.swift */,
 				0EB548C5239C124800C88B1D /* Extensions */,
+				0EB548CA239C15C000C88B1D /* BeautifulString.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -243,7 +247,6 @@
 			isa = PBXGroup;
 			children = (
 				0EB548C8239C14CB00C88B1D /* Source */,
-				678EF3D55C0F3BE810C07592CD241101 /* ReplaceMe.swift */,
 				4E692BAA10B81CFB063D0F97748E8EA3 /* Pod */,
 				015D7891A787C692288A47B509C14332 /* Support Files */,
 			);
@@ -566,9 +569,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB548CB239C15C000C88B1D /* BeautifulString.swift in Sources */,
 				502A8A379812EFC00B230B4019535F39 /* AttriBeauty-dummy.m in Sources */,
-				0EB548C7239C148400C88B1D /* BeautifulStringConvertible.swift in Sources */,
-				9644B54350AACB38D9FA95DF649D5FDE /* ReplaceMe.swift in Sources */,
+				0EB548C7239C148400C88B1D /* BeautifulStringConvertible+.swift in Sources */,
+				9644B54350AACB38D9FA95DF649D5FDE /* AttriBeautyDSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

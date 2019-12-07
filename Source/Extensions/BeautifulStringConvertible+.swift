@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - AttributeStringConvertible
+// MARK: - BeautifulStringConvertible
 public protocol BeautifulStringConvertible {
     
     func beautfiy() -> BeautifulString
