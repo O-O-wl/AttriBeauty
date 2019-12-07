@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         demoLabel.attributedText = demoLabel.text?.beautfiy()
             .attriBeauty
             .fgColor(.blue)
-            .bgColor(.purple).regex("y")
+            .bgColor(.green).regex("awesome")
             .fgColor(.red).range(NSRange(0...4))
             .font(.boldSystemFont(ofSize: 30))
             .align(.center)

@@ -20,11 +20,11 @@ pod 'AttriBeauty'
 ```swift
 @IBOutlet var demoLabel: UILabel!
 
-demoLabel.attributedText = "Hello World!\n AttriBeauty is very awesome!"
-	    .beautfiy()
+demoLabel.attributedText = demoLabel.text?
+			      .beautfiy()
             .attriBeauty
             .fgColor(.blue)
-            .bgColor(.purple).regex("y")
+            .bgColor(.green).regex("awesome")
             .fgColor(.red).range(NSRange(0...4))
             .font(.boldSystemFont(ofSize: 30))
             .align(.center)
@@ -32,7 +32,7 @@ demoLabel.attributedText = "Hello World!\n AttriBeauty is very awesome!"
     
 ```
 
-<img width="270" alt="스크린샷 2019-12-08 오전 3 12 16" src="https://user-images.githubusercontent.com/39197978/70378842-937da680-1968-11ea-8d43-8dda5850d5b7.png">
+<img width="270" alt="스크린샷 2019-12-08 오전 4 10 26" src="https://user-images.githubusercontent.com/39197978/70379493-aeecaf80-1970-11ea-92c1-8244dd435143.png">
 
 
 
